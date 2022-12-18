@@ -1,0 +1,62 @@
+.cake {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    /* Make sure cake is infront of background images */
+    display:block;
+    z-index: 3;
+  }
+  
+  .layer {
+    height: 33.3333%;
+    display: flex;
+    margin: auto;
+    border:1px;
+    box-shadow: 0 0 10px rgb(253, 252, 236); /* Add a glowing effect to the border */
+  }
+  .layer:nth-child(1) {
+    width: 60%;
+    border:#ffc0cb solid; /* pink */
+    top: 0%;
+  }
+  .layer:nth-child(2) {
+    width: 80%;
+    border:#ffffe0 solid;/* yellow */
+    top: 33.3333%;
+  }
+  .layer:nth-child(3) {
+    width: 100%;
+    border:#90ee90 solid;/* green */
+    top: 66.6666%;
+  }
+  
+  .cherry {
+    width: 10px;
+    height: 10px;
+    background-color: #ff0000; /* red */
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .candle {
+    background-color: #f8f8f8;
+    height: 70px;
+    width: 20px;
+  }
+
+  .flame {
+    background-color: #fbb200;
+    height: 22px;
+    width: 22px;
+    border-radius: 0 50% 50% 50%;
+    display: flex;
+    margin-left: 20%;
+    transform: rotate(45deg);
+  }
