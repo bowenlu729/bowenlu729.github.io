@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
 .title h1{
     font-size: 100px;
     font-family: 'Lato', sans-serif;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 55%;
     width: 80%;
     transform: translate(-50%, -50%);
 
     /* Stryling the text and giving it gradiant */
-    color:#ffffff;
-    background: -webkit-linear-gradient(#eee, #333);
+    color:#ebe0b3;
+    background: -webkit-linear-gradient(#ebe0b3, rgb(126, 126, 126));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
