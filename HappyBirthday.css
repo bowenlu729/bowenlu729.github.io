@@ -14,7 +14,7 @@
 
     /* Stryling the text and giving it gradiant */
     color:#ebe0b3;
-    background: -webkit-linear-gradient(#ebe0b3, rgb(126, 126, 126));
+    background: -webkit-linear-gradient(#ebe0b3, rgb(192, 178, 178));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
@@ -61,4 +61,17 @@
     z-index:2;
     opacity: .4;
     animation:move-clouds-back 200s linear infinite;
+}
+
+.audio {
+  height:100;
+  width:500;
+  
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Make sure infront of background images */
+  z-index: 3;
 }
