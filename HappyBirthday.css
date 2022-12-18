@@ -19,7 +19,6 @@
 
     /* Make sure text is infront of background images */
     display:block;
-    position: relative;
     z-index: 3;
 }
 
