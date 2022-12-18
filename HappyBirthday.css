@@ -3,11 +3,12 @@
     padding: 0;
 }
 .title h1{
-    font-size: 60px;
+    font-size: 100px;
     font-family: 'Lato', sans-serif;
     position: absolute;
-    top: 35%;
+    top: 20%;
     left: 50%;
+    width: 80%;
     transform: translate(-50%, -50%);
 
     /* Stryling the text and giving it gradiant */
