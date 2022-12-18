@@ -64,8 +64,9 @@
 }
 
 .audio {
+  font-size: 20px;
   height:100;
-  width:500;
+  width:600;
   
   position: absolute;
   top: 70%;
